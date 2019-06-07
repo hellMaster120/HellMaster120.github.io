@@ -185,7 +185,7 @@ background:rgb(0,0,0)
 
 
 @keyframes AimDescription {
-	0% {left:-1000px;}
+	0% {left:-2000px;}
 	100% {left:20px;}
 }
 

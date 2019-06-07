@@ -25,8 +25,10 @@ body{
 	border:10px rgb(227,0,0) double ;
 	animation:AimDescription;
 	animation-duration:4s;
+	animation-delay:3s;
 	animation-fill-mode:forwards;
 	position:relative;
+	right:40000px;
 
 }
 
@@ -34,15 +36,15 @@ body{
 
 #Title {	
 	color:rgb(255,255,255);
-	text-align:center;
 	background:rgb(0,0,0);
 	font-size:60px;
 	animation:AimTitle;
-	animation-duration:2s;
+	animation-duration:3s;
 	animation-fill-mode:forwards;
 	position:relative;
 	display:inline-block;
 	border:20px double rgb(255,0,0);
+	left:400px;
 }
 
 
@@ -84,7 +86,7 @@ body{
 	opacity:0;
 	animation:AimButton;
 	animation-duration:2s;
-	animation-delay:3s;
+	animation-delay:6s;
 	animation-fill-mode:forwards;
 	position:relative;
 	transition-property:background;
@@ -111,7 +113,7 @@ body{
 	opacity:0;
 	animation:AimBorders1;
 	animation-duration:2s;
-	animation-delay:3s;
+	animation-delay:6s;
 	animation-fill-mode:forwards;
 	
 
@@ -124,7 +126,7 @@ body{
  	opacity:0;
 	animation:AimBorders2;
 	animation-duration:2s;
-	animation-delay:3s;
+	animation-delay:6s;
 	animation-fill-mode:forwards;
 	
 }
@@ -149,7 +151,7 @@ background:rgb(0,0,0)
 	opacity:0;
 	animation:AimSitesLable;
 	animation-duration:2s;
-	animation-delay:3s;
+	animation-delay:6s;
 	animation-fill-mode:forwards;
 	
 }

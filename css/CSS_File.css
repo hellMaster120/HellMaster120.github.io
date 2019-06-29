@@ -16,10 +16,12 @@ body{
 
 }
 #Title{	
+	border:10px rgb(0,0,0) double;
+	border-radius:30px; 
 	background:rgb(255,0,0);	
 	display:inline-block;
 	position:relative;
-	left:35%;
+	left:32%;
 	top:50px; 
 	font-size:60px;
 }

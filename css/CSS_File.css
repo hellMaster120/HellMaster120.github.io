@@ -1,0 +1,25 @@
+/*
+. = class
+# = id 
+ */
+*{
+
+	margin:0px;
+	padding:0px;
+}
+
+
+body{
+	margin:auto;
+	width:90%;
+	background:rgb(125,125,125);
+
+}
+#Title{	
+	background:rgb(255,0,0);	
+	display:inline-block;
+	position:relative;
+	left:35%;
+	top:50px; 
+	font-size:60px;
+}

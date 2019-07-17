@@ -1,0 +1,1009 @@
+/*
+  _   _      _ _    __  __           _               _ ____   ___  
+ | | | | ___| | |  |  \/  | __ _ ___| |_ ___ _ __   / |___ \ / _ \ 
+ | |_| |/ _ \ | |  | |\/| |/ _` / __| __/ _ \ '__|  | | __) | | | |
+ |  _  |  __/ | |  | |  | | (_| \__ \ ||  __/ |     | |/ __/| |_| |
+ |_| |_|\___|_|_|  |_|  |_|\__,_|___/\__\___|_|     |_|_____|\___/ 
+. = class
+# = id 
+ */
+*{
+
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin:auto;
+	width:90%;
+	background:rgb(125,125,125);
+
+}
+#Description{
+	color:rgb(247,247,0);
+	background-color:rgb(0,0,0);
+	margin-top:40px; 
+	font:bold 20px serif;
+	line-height:2.6em;	 
+	border:10px rgb(227,0,0) double ;
+	animation:AimDescription;
+	animation-duration:4s;
+	animation-delay:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	right:40000px;
+
+}
+#Title {	
+	color:rgb(255,255,255);
+	background:rgb(0,0,0);
+	font-size:60px;
+	animation:AimTitle;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	position:relative;
+	display:inline-block;
+	border:20px double rgb(255,0,0);
+	left:400px;
+}
+#CopyRight {
+	line-height:600px;
+	margin-left:60px;
+	width:60%;
+	color:rgb(135,135,135);
+	font-weight:bold;
+	font-size:10px;
+	display:inline;
+	background-color:rgb(0,0,0);
+	border:5px rgb(217,0,0) double;
+	border-radius:20px;
+	padding:10px;
+	animation:AimCopyRight;
+	animation-duration:2s;
+	animation-fill-mode:forwards;
+	position:relative;
+	opacity:0;
+
+
+}
+.Music{
+	background:rgb(125,125,125); 
+	display:inline;
+	opacity:0;
+	animation:AimMusic;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+
+}
+.ThatOneEvanGoku {	
+	
+	font:bold 30px serif;
+	font-size:30px;
+	background-color:rgb(0,0,0);
+	background-clip:20px;
+	color:rgb(255,0,0);
+	display:block;
+	width:297px;
+	height:40px;
+	margin-left:0px;
+    opacity:0;
+	animation:AimThatOneEvanGoku;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+
+}
+#DisCordLink {
+	text-decoration:underline rgb(127,0,0);
+	font-weight:100px;
+	font-size:30px;
+	color:rgb(0,70,255);
+}
+.borders1 {	
+	margin-top:10px;
+	width:291px;
+	height:10px;
+	background:rgb(0,0,0);
+	opacity:0;
+	animation:AimBorders1;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	
+
+}
+.borders2 {	
+	margin-top:10px;
+	width:291px;
+	height:10px;
+	background:rgb(0,0,0);
+ 	opacity:0;
+	animation:AimBorders3;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	
+}
+.box1 {	
+background:rgb(0,0,0)
+
+
+}
+#SitesLable {
+	
+	font-size:60px;
+	background-color:rgb(0,0,0);
+	background-clip:20px;
+	color:rgb(255,0,0);
+	display:block;
+	width:140px;
+	height:90px;
+	margin-left:70px;
+
+
+	opacity:0;
+	animation:AimSitesLable;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	
+}
+#ProjectLable {
+	
+	font-size:60px;
+	background-color:rgb(0,0,0);
+	background-clip:20px;
+	color:rgb(255,0,0);
+	display:block;
+	width:220px;
+	height:90px;
+	margin-left:800px;
+
+
+	opacity:0;
+	animation:AimProjectLable;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	
+}
+#button1 {
+	margin-top:0px;
+	width:90px;
+	height:90px;
+	margin-left:0px;
+	display:inline;
+
+}
+#button2 {
+	margin-top:0px;
+	width:90px;
+	height:90px;
+	
+
+}
+#button3 {
+	margin-top:0px;
+	width:100px;
+	height:90px;
+	
+
+}
+#button4 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:300px;
+	height:30px;
+
+}
+
+#button5 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+
+}
+#button6 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button7 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button8 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+
+}
+
+#button9 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+
+#button10 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button11 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+
+#button12 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+
+}
+#button13 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+
+}
+#button14 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+
+}
+#button15 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button16 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button17 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button18 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button18 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button19 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button20 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button21 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button22 {
+	font:bold 15px serif;
+	margin-top:0px;
+	width:200px;
+	height:90px;
+	
+}
+#button1 {
+
+	opacity:0;
+	animation:AimButton1;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button1:hover{
+	background:rgb(255,0,0)
+}
+#button2 {
+
+	opacity:0;
+	animation:AimButton2;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button2:hover{
+	background:rgb(255,0,0)
+}
+#button3 {
+
+	opacity:0;
+	animation:AimButton3;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button3:hover{
+	background:rgb(255,0,0)
+}
+#button4 {
+
+	opacity:0;
+	animation:AimButton4;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button4:hover{
+	background:rgb(255,0,0)
+}
+#button5 {
+
+	opacity:0;
+	animation:AimButton5;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button5:hover{
+	background:rgb(255,0,0)
+}
+#button6 {
+
+	opacity:0;
+	animation:AimButton6;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button6:hover{
+	background:rgb(255,0,0)
+}
+#button7 {
+
+	opacity:0;
+	animation:AimButton7;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button7:hover{
+	background:rgb(255,0,0)
+}
+#button8 {
+
+	opacity:0;
+	animation:AimButton8;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button8:hover{
+	background:rgb(255,0,0)
+}
+#button9 {
+
+	opacity:0;
+	animation:AimButton9;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button9:hover{
+	background:rgb(255,0,0)
+}
+
+#button10 {
+
+	opacity:0;
+	animation:AimButton10;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button10:hover{
+	background:rgb(255,0,0)
+}
+#button11 {
+
+	opacity:0;
+	animation:AimButton11;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button11:hover{
+	background:rgb(255,0,0)
+}
+
+#button12 {
+
+	opacity:0;
+	animation:AimButton12;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button12:hover{
+	background:rgb(255,0,0)
+}
+
+#button13 {
+
+	opacity:0;
+	animation:AimButton13;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button13:hover{
+	background:rgb(255,0,0)
+}
+#button14 {
+
+	opacity:0;
+	animation:AimButton14;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button14:hover{
+	background:rgb(255,0,0)
+}
+#button15 {
+
+	opacity:0;
+	animation:AimButton15;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button15:hover{
+	background:rgb(255,0,0)
+}
+#button16 {
+
+	opacity:0;
+	animation:AimButton16;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button16:hover{
+	background:rgb(255,0,0)
+}
+#button17 {
+
+	opacity:0;
+	animation:AimButton17;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button17:hover{
+	background:rgb(255,0,0)
+}
+#button18 {
+
+	opacity:0;
+	animation:AimButton18;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button18:hover{
+	background:rgb(255,0,0)
+}
+#button19 {
+
+	opacity:0;
+	animation:AimButton19;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button19:hover{
+	background:rgb(255,0,0)
+}
+#button20 {
+
+	opacity:0;
+	animation:AimButton20;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button20:hover{
+	background:rgb(255,0,0)
+}
+#button21 {
+
+	opacity:0;
+	animation:AimButton21;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button21:hover{
+	background:rgb(255,0,0)
+}
+#button22 {
+
+	opacity:0;
+	animation:AimButton22;
+	animation-duration:2s;
+	animation-delay:6s;
+	animation-fill-mode:forwards;
+	position:relative;
+	transition-property:background;
+	transition-duration:1s;
+}
+#button22:hover{
+	background:rgb(255,0,0)
+}
+
+
+
+
+
+@keyframes AimMusic {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes AimThatOneEvanGoku {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes AimDescription {
+	0% {left:-2000px;}
+	100% {left:20px;}
+}
+@keyframes AimTitle {
+	0% {top:-200px;}
+	100% {top:20px;}
+}
+@keyframes AimCopyRight {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@keyframes AimProjectLable{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes AimSitesLable{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes AimBorders1{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+@keyframes AimBorders2{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes AimBorders3{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes AimButton1 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+
+@keyframes AimButton2 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+
+@keyframes AimButton3 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+
+@keyframes AimButton4 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+
+@keyframes AimButton5 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton6 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton7 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton8 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton9 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton10 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton11 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton12 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton13 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton14 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton15 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton16 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton17 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton18 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton19 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton20 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton21 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes AimButton22 {
+	0%{opacity:0;}
+	100%{opacity:100;}
+}
+@keyframes BackGroundRainBow {
+	0%{background:rgb(255,0,0);}
+	1%{background:rgb(255,102,0);}
+	2%{background:rgb(222,255,0);}
+	3%{background:rgb(0,255,0);}
+	4%{background:rgb(0,154,255);}
+	5%{background:rgb(0,17,255);}
+	6%{background:rgb(199,0,255);}
+	7%{background:rgb(255,0,0);}
+	8%{background:rgb(255,102,0);}
+	9%{background:rgb(222,255,0);}
+	10%{background:rgb(0,255,0);}
+	11%{background:rgb(0,154,255);}
+	12%{background:rgb(0,17,255);}
+	13%{background:rgb(199,0,255);}
+	14%{background:rgb(255,0,0);}
+	15%{background:rgb(255,102,0);}
+	16%{background:rgb(222,255,0);}
+	17%{background:rgb(0,255,0);}
+	18%{background:rgb(0,154,255);}
+	19%{background:rgb(0,17,255);}
+	20%{background:rgb(199,0,255);}
+	21%{background:rgb(255,0,0);}
+	22%{background:rgb(255,102,0);}
+	23%{background:rgb(222,255,0);}
+	24%{background:rgb(0,255,0);}
+	25%{background:rgb(0,154,255);}
+	26%{background:rgb(0,17,255);}
+	27%{background:rgb(199,0,255);}
+	28%{background:rgb(255,0,0);}
+	29%{background:rgb(255,102,0);}
+	30%{background:rgb(222,255,0);}
+	31%{background:rgb(0,255,0);}
+	32%{background:rgb(0,154,255);}
+	33%{background:rgb(0,17,255);}
+	34%{background:rgb(199,0,255);}
+	35%{background:rgb(255,0,0);}
+	36%{background:rgb(255,102,0);}
+	37%{background:rgb(222,255,0);}
+	38%{background:rgb(0,255,0);}
+	39%{background:rgb(0,154,255);}
+	40%{background:rgb(0,17,255);}
+	41%{background:rgb(199,0,255);}
+	42%{background:rgb(255,0,0);}
+	43%{background:rgb(255,102,0);}
+	44%{background:rgb(222,255,0);}
+	45%{background:rgb(0,255,0);}
+	46%{background:rgb(0,154,255);}
+	47%{background:rgb(0,17,255);}
+	48%{background:rgb(199,0,255);}
+	49%{background:rgb(255,0,0);}
+	50%{background:rgb(255,102,0);}
+	51%{background:rgb(222,255,0);}
+	52%{background:rgb(0,255,0);}
+	53%{background:rgb(0,154,255);}
+	54%{background:rgb(0,17,255);}
+	55%{background:rgb(199,0,255);}
+	56%{background:rgb(255,0,0);}
+	57%{background:rgb(255,102,0);}
+	58%{background:rgb(222,255,0);}
+	59%{background:rgb(0,255,0);}
+	60%{background:rgb(0,154,255);}
+	61%{background:rgb(0,17,255);}
+	62%{background:rgb(199,0,255);}
+	63%{background:rgb(255,0,0);}
+	64%{background:rgb(255,102,0);}
+	65%{background:rgb(222,255,0);}
+	66%{background:rgb(0,255,0);}
+	67%{background:rgb(0,154,255);}
+	68%{background:rgb(0,17,255);}
+	69%{background:rgb(199,0,255);}
+	70%{background:rgb(255,0,0);}
+	71%{background:rgb(255,102,0);}
+	72%{background:rgb(222,255,0);}
+	73%{background:rgb(0,255,0);}
+	74%{background:rgb(0,154,255);}
+	75%{background:rgb(0,17,255);}
+	76%{background:rgb(199,0,255);}
+	77%{background:rgb(255,0,0);}
+	78%{background:rgb(255,102,0);}
+	79%{background:rgb(222,255,0);}
+	80%{background:rgb(0,255,0);}
+	81%{background:rgb(0,154,255);}
+	82%{background:rgb(0,17,255);}
+	83%{background:rgb(199,0,255);}
+	84%{background:rgb(255,0,0);}
+	85%{background:rgb(255,102,0);}
+	86%{background:rgb(222,255,0);}
+	87%{background:rgb(0,255,0);}
+	88%{background:rgb(0,154,255);}
+	89%{background:rgb(0,17,255);}
+	90%{background:rgb(199,0,255);}
+	91%{background:rgb(255,0,0);}
+	92%{background:rgb(255,102,0);}
+	93%{background:rgb(222,255,0);}
+	94%{background:rgb(0,255,0);}
+	95%{background:rgb(0,154,255);}
+	96%{background:rgb(0,17,255);}
+	97%{background:rgb(199,0,255);}
+	98%{background:rgb(255,0,0);}
+	99%{background:rgb(255,102,0);}
+	100%{background:rgb(222,255,0);}
+}
+@keyframes TextColorRainBow {
+	0%{color:rgb(255,0,0);}
+	1%{color:rgb(255,102,0);}
+	2%{color:rgb(222,255,0);}
+	3%{color:rgb(0,255,0);}
+	4%{color:rgb(0,154,255);}
+	5%{color:rgb(0,17,255);}
+	6%{color:rgb(199,0,255);}
+	7%{color:rgb(255,0,0);}
+	8%{color:rgb(255,102,0);}
+	9%{color:rgb(222,255,0);}
+	10%{color:rgb(0,255,0);}
+	11%{color:rgb(0,154,255);}
+	12%{color:rgb(0,17,255);}
+	13%{color:rgb(199,0,255);}
+	14%{color:rgb(255,0,0);}
+	15%{color:rgb(255,102,0);}
+	16%{color:rgb(222,255,0);}
+	17%{color:rgb(0,255,0);}
+	18%{color:rgb(0,154,255);}
+	19%{color:rgb(0,17,255);}
+	20%{color:rgb(199,0,255);}
+	21%{color:rgb(255,0,0);}
+	22%{color:rgb(255,102,0);}
+	23%{color:rgb(222,255,0);}
+	24%{color:rgb(0,255,0);}
+	25%{color:rgb(0,154,255);}
+	26%{color:rgb(0,17,255);}
+	27%{color:rgb(199,0,255);}
+	28%{color:rgb(255,0,0);}
+	29%{color:rgb(255,102,0);}
+	30%{color:rgb(222,255,0);}
+	31%{color:rgb(0,255,0);}
+	32%{color:rgb(0,154,255);}
+	33%{color:rgb(0,17,255);}
+	34%{color:rgb(199,0,255);}
+	35%{color:rgb(255,0,0);}
+	36%{color:rgb(255,102,0);}
+	37%{color:rgb(222,255,0);}
+	38%{color:rgb(0,255,0);}
+	39%{color:rgb(0,154,255);}
+	40%{color:rgb(0,17,255);}
+	41%{color:rgb(199,0,255);}
+	42%{color:rgb(255,0,0);}
+	43%{color:rgb(255,102,0);}
+	44%{color:rgb(222,255,0);}
+	45%{color:rgb(0,255,0);}
+	46%{color:rgb(0,154,255);}
+	47%{color:rgb(0,17,255);}
+	48%{color:rgb(199,0,255);}
+	49%{color:rgb(255,0,0);}
+	50%{color:rgb(255,102,0);}
+	51%{color:rgb(222,255,0);}
+	52%{color:rgb(0,255,0);}
+	53%{color:rgb(0,154,255);}
+	54%{color:rgb(0,17,255);}
+	55%{color:rgb(199,0,255);}
+	56%{color:rgb(255,0,0);}
+	57%{color:rgb(255,102,0);}
+	58%{color:rgb(222,255,0);}
+	59%{color:rgb(0,255,0);}
+	60%{color:rgb(0,154,255);}
+	61%{color:rgb(0,17,255);}
+	62%{color:rgb(199,0,255);}
+	63%{color:rgb(255,0,0);}
+	64%{color:rgb(255,102,0);}
+	65%{color:rgb(222,255,0);}
+	66%{color:rgb(0,255,0);}
+	67%{color:rgb(0,154,255);}
+	68%{color:rgb(0,17,255);}
+	69%{color:rgb(199,0,255);}
+	70%{color:rgb(255,0,0);}
+	71%{color:rgb(255,102,0);}
+	72%{color:rgb(222,255,0);}
+	73%{color:rgb(0,255,0);}
+	74%{color:rgb(0,154,255);}
+	75%{color:rgb(0,17,255);}
+	76%{color:rgb(199,0,255);}
+	77%{color:rgb(255,0,0);}
+	78%{color:rgb(255,102,0);}
+	79%{color:rgb(222,255,0);}
+	80%{color:rgb(0,255,0);}
+	81%{color:rgb(0,154,255);}
+	82%{color:rgb(0,17,255);}
+	83%{color:rgb(199,0,255);}
+	84%{color:rgb(255,0,0);}
+	85%{color:rgb(255,102,0);}
+	86%{color:rgb(222,255,0);}
+	87%{color:rgb(0,255,0);}
+	88%{color:rgb(0,154,255);}
+	89%{color:rgb(0,17,255);}
+	90%{color:rgb(199,0,255);}
+	91%{color:rgb(255,0,0);}
+	92%{color:rgb(255,102,0);}
+	93%{color:rgb(222,255,0);}
+	94%{color:rgb(0,255,0);}
+	95%{color:rgb(0,154,255);}
+	96%{color:rgb(0,17,255);}
+	97%{color:rgb(199,0,255);}
+	98%{color:rgb(255,0,0);}
+	99%{color:rgb(255,102,0);}
+	100%{color:rgb(222,255,0);}
+}
+
+
+/*	
+  _____   _____  ___   ____                    
+ | ____| |__  / |_ _| / ___|                   
+ |  _|     / /   | | | |                       
+ | |___ _ / /_ _ | | | |___                    
+ |_____(_)____(_)___(_)____|     
+  _   _      _ _ __  __           _             
+ | | | | ___| | |  \/  | __ _ ___| |_ ___ _ __ 
+ | |_| |/ _ \ | | |\/| |/ _` / __| __/ _ \ '__|
+ |  _  |  __/ | | |  | | (_| \__ \ ||  __/ |   
+ |_| |_|\___|_|_|_|  |_|\__,_|___/\__\___|_|   
+ */
+

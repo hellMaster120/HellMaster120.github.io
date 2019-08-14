@@ -11,42 +11,6 @@ canvas {
 }
 
 
-
-.logo {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  -webkit-transform: translate(50%, -50%);
-  max-width: 90%;
-  padding: 15em 15em;
-  user-drag: none; 
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  
-  animation:logoAnim;
-  animation-duration:6s;
-  animation-delay:2s;
-  animation-fill-mode:forwards;
- 
-  transition-property:top,padding;
-  transition-duration:3s;
-
-}
-
-@keyframes logoAnim {
-100%{top:20%; padding: 5em 5em;}
-
-
-}
-
-
-
-
-
-
 #button5{
   
 

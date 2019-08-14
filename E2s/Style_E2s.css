@@ -9,15 +9,48 @@ canvas {
   height: 100%;
   background: #000000;
 }
-
-
-
-
-
 #Back{
-  
   opacity:255;
-  
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  position: absolute;
+  background-color:rgb(20,20,20,.5);
+  top: 8%;
+  right: 90%;
+  width:9%;
+  height:8%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  border:5px;
+  border-style:solid;
+  border-color:rgb(75,75,75);
+  border-radius:20px;
+  color:rgb(255,255,255);
+  animation:Buttons;
+  animation-duration:5s;
+  animation-delay:0s;
+  animation-fill-mode:forwards;
+  transform:background-color;
+  transition-duration:.8s;
+}
+
+#buttonThing1{
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  width:98%;
+  height:30%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  cursor:pointer;
+  border:5px;
+  border-style:solid;
+  border-radius:50px;
+  border-color:rgb(0,100,0);
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -25,56 +58,245 @@ canvas {
   -webkit-user-select: none;
   -ms-user-select: none;
 
-position: absolute;
-background-color:rgb(20,20,20,.5);
-top: 8%;
-right: 90%;
-width:9%;
-height:8%;
-max-width: 90%;
--webkit-transform: translate(50%, -50%);
-border:5px;
-border-style:solid;
-border-color:rgb(75,75,75);
-border-radius:20px;
-color:rgb(255,255,255);
-
-animation:Buttons;
-  animation-duration:5s;
-  animation-delay:0s;
-  animation-fill-mode:forwards;
-
-  transform:background-color;
-  transition-duration:.8s;
-  
-
 }
-
-#buttonThing{
-
-position: absolute;
-top: 80%;
-right: 50%;
-width:98%;
-height:20%;
-max-width: 100%;
--webkit-transform: translate(50%, -50%);
-
-
-
-}
-
 #box1{
+  position: absolute;
+  background-color:rgb(100,0,0,.7);
+  top: 25%;
+  right: 85%;
+  width:20%;
+  height:10%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text1{
+  background-color:rgb(100,0,0,.7);
+  background-size:30px;
+  font-size:30px;
+  position: absolute;
+  top: -38%;
+  right:28%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  text-align:center;
+  color:rgb(255,255,255);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text11{
+  text-align:center;
+  color:rgb(0,0,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#buttonThing2{
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  width:98%;
+  height:30%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  cursor:pointer;
+  border:5px;
+  border-style:solid;
+  border-radius:50px;
+  border-color:rgb(0,100,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
-position: absolute;
-background-color:rgb(100,0,0,.7);
-top: 25%;
-right: 85%;
-width:20%;
-height:10%;
-max-width: 90%;
--webkit-transform: translate(50%, -50%);
+}
+#box2{
+  position: absolute;
+  background-color:rgb(100,0,0,.7);
+  top: 25%;
+  right: 64%;
+  width:20%;
+  height:10%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text2{
+  background-color:rgb(100,0,0,.7);
+  background-size:30px;
+  font-size:30px;
+  position: absolute;
+  top: -38%;
+  right:28%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  text-align:center;
+  color:rgb(255,255,255);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text21{
+  text-align:center;
+  color:rgb(0,0,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#buttonThing3{
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  width:98%;
+  height:30%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  cursor:pointer;
+  border:5px;
+  border-style:solid;
+  border-radius:50px;
+  border-color:rgb(0,100,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+}
+#box3{
+  position: absolute;
+  background-color:rgb(100,0,0,.7);
+  top: 25%;
+  right: 43%;
+  width:20%;
+  height:10%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text3{
+  background-color:rgb(100,0,0,.7);
+  background-size:30px;
+  font-size:30px;
+  position: absolute;
+  top: -38%;
+  right:28%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  text-align:center;
+  color:rgb(255,255,255);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text31{
+  text-align:center;
+  color:rgb(0,0,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 
 
+#buttonThing4{
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  width:98%;
+  height:30%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  cursor:pointer;
+  border:5px;
+  border-style:solid;
+  border-radius:50px;
+  border-color:rgb(0,100,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
+}
+#box4{
+  position: absolute;
+  background-color:rgb(100,0,0,.7);
+  top: 25%;
+  right: 22%;
+  width:20%;
+  height:10%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text4{
+  background-color:rgb(100,0,0,.7);
+  background-size:30px;
+  font-size:30px;
+  position: absolute;
+  top: -38%;
+  right:28%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  text-align:center;
+  color:rgb(255,255,255);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text41{
+  text-align:center;
+  color:rgb(0,0,0);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

@@ -1,5 +1,5 @@
 canvas {
-  background: block;
+  background:black;
   vertical-align: bottom;
 }
 
@@ -49,20 +49,31 @@ canvas {
 
 #button5{
   
+
+
   opacity:0;
   animation:Buttons;
   animation-duration:5s;
   animation-delay:3s;
   animation-fill-mode:forwards;
- 
-  transition-property:opacity;
-  transition-duration:3s;
+
+  transform:background-color;
+  transition-duration:.8s;
+  
+
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
 position: absolute;
 background-color:rgb(20,20,20,.5);
 top: 55%;
 right: 65%;
-padding: 3em 5em;
+width:13%;
+height:12%;
 max-width: 90%;
 -webkit-transform: translate(50%, -50%);
 border:10px;
@@ -77,13 +88,24 @@ color:rgb(255,255,255);
   animation-delay:3s;
   animation-fill-mode:forwards;
  
-  transition-property:opacity;
-  transition-duration:3s;
+  
+  transform:background-color;
+  transition-duration:.8s;
+  
+
+
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
 position: absolute;
 top: 55%;
 right: 50%;
-padding: 3em 5em;
+width:13%;
+height:12%;
 max-width: 90%;
 -webkit-transform: translate(50%, -50%);
 background-color:rgb(20,20,20,.5);
@@ -99,13 +121,22 @@ color:rgb(255,255,255);
   animation-delay:3s;
   animation-fill-mode:forwards;
  
-  transition-property:opacity;
-  transition-duration:3s;
+  
+  transform:background-color;
+  transition-duration:.8s;
+  
 
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 position: absolute;
 top: 55%;
 right: 35%;
-padding: 3em 5em;
+width:13%;
+height:12%;
 max-width: 90%;
 -webkit-transform: translate(50%, -50%);
 background-color:rgb(20,20,20,.5);
@@ -121,15 +152,22 @@ color:rgb(255,255,255);
   animation-delay:3s;
   animation-fill-mode:forwards;
  
-  transition-property:opacity;
-  transition-duration:3s;
+  transform:background-color;
+  transition-duration:.8s;
+  
 
-
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 
 position: absolute;
-top: 70%;
+top: 69%;
 right: 50%;
-padding: 3em 23em;
+width:43%;
+height:12%;
 max-width: 90%;
 -webkit-transform: translate(50%, -50%);
 
@@ -143,5 +181,62 @@ color:rgb(255,255,255);
 
 @keyframes Buttons {
 100%{opacity:100;}
+
+}
+
+#DIV{
+position: absolute;
+top: 10%;
+right:200%;
+animation:TextAnim;
+  animation-duration:6s;
+  animation-delay:1s;
+  animation-fill-mode:forwards;
+ 
+
+width:1%;
+height:1%;
+max-width: 90%;
+-webkit-transform: translate(50%, -50%);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#Text{
+color:red;
+text-align:center;
+font-size:900%;
+font-family: 'Beth Ellen', cursive;
+font-family: 'Indie Flower', cursive;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+@keyframes TextAnim{
+100%{right:65%;}
+
+}
+#button5:hover{
+background-color:rgb(100,0,0);
+}
+#button6:hover{
+background-color:rgb(100,0,0);
+
+
+}
+#button7:hover{
+background-color:rgb(100,0,0);
+
+
+}
+#button8:hover{
+background-color:rgb(100,0,0);
+
 
 }

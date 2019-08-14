@@ -52,15 +52,7 @@ canvas {
 
 
   opacity:0;
-  animation:Buttons;
-  animation-duration:5s;
-  animation-delay:3s;
-  animation-fill-mode:forwards;
-
-  transform:background-color;
-  transition-duration:.8s;
   
-
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -80,19 +72,21 @@ border:10px;
 border-style:solid;
 border-color:rgb(75,75,75);
 color:rgb(255,255,255);
-}
-#button6{
-  opacity:0;
-  animation:Buttons;
+
+
+animation:Buttons;
   animation-duration:5s;
   animation-delay:3s;
   animation-fill-mode:forwards;
- 
-  
+
   transform:background-color;
   transition-duration:.8s;
   
 
+}
+#button6{
+  opacity:0;
+ 
 
   user-drag: none; 
   user-select: none;
@@ -113,10 +107,8 @@ border:10px;
 border-style:solid;
 border-color:rgb(75,75,75);
 color:rgb(255,255,255);
-}
-#button7{
-  opacity:0;
-  animation:Buttons;
+
+ animation:Buttons;
   animation-duration:5s;
   animation-delay:3s;
   animation-fill-mode:forwards;
@@ -126,6 +118,12 @@ color:rgb(255,255,255);
   transition-duration:.8s;
   
 
+
+}
+#button7{
+  opacity:0;
+  animation:Buttons;
+  
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -144,18 +142,21 @@ border:10px;
 border-style:solid;
 border-color:rgb(75,75,75);
 color:rgb(255,255,255);
-}
-#button8{
-  opacity:0;
-  animation:Buttons;
-  animation-duration:5s;
+
+animation-duration:5s;
   animation-delay:3s;
   animation-fill-mode:forwards;
  
+  
   transform:background-color;
   transition-duration:.8s;
   
 
+
+}
+#button8{
+  opacity:0;
+  
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -177,6 +178,17 @@ border-style:solid;
 background-color:rgb(20,20,20,.5);
 border-color:rgb(75,75,75);
 color:rgb(255,255,255);
+
+animation:Buttons;
+  animation-duration:5s;
+  animation-delay:3s;
+  animation-fill-mode:forwards;
+ 
+  transform:background-color;
+  transition-duration:.8s;
+  
+
+
 }
 
 @keyframes Buttons {
@@ -188,12 +200,6 @@ color:rgb(255,255,255);
 position: absolute;
 top: 10%;
 right:200%;
-animation:TextAnim;
-  animation-duration:6s;
-  animation-delay:1s;
-  animation-fill-mode:forwards;
- 
-
 width:1%;
 height:1%;
 max-width: 90%;
@@ -204,6 +210,13 @@ max-width: 90%;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+animation:TextAnim;
+  animation-duration:6s;
+  animation-delay:1s;
+  animation-fill-mode:forwards;
+ 
+
+
 }
 #Text{
 color:red;
@@ -219,7 +232,7 @@ font-family: 'Indie Flower', cursive;
   -ms-user-select: none;
 }
 @keyframes TextAnim{
-100%{right:65%;}
+100%{right:66.7%;}
 
 }
 #button5:hover{

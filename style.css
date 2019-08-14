@@ -40,7 +40,7 @@ color:rgb(255,255,255);
 
 animation:Buttons;
   animation-duration:5s;
-  animation-delay:3s;
+  animation-delay:0s;
   animation-fill-mode:forwards;
 
   transform:background-color;
@@ -74,7 +74,7 @@ color:rgb(255,255,255);
 
  animation:Buttons;
   animation-duration:5s;
-  animation-delay:3s;
+  animation-delay:0s;
   animation-fill-mode:forwards;
  
   
@@ -108,7 +108,7 @@ border-color:rgb(75,75,75);
 color:rgb(255,255,255);
 
 animation-duration:5s;
-  animation-delay:3s;
+  animation-delay:0s;
   animation-fill-mode:forwards;
  
   
@@ -145,7 +145,7 @@ color:rgb(255,255,255);
 
 animation:Buttons;
   animation-duration:5s;
-  animation-delay:3s;
+  animation-delay:0s;
   animation-fill-mode:forwards;
  
   transform:background-color;
@@ -176,7 +176,7 @@ max-width: 90%;
   -ms-user-select: none;
 animation:TextAnim;
   animation-duration:6s;
-  animation-delay:1s;
+  animation-delay:0s;
   animation-fill-mode:forwards;
  
 

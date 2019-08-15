@@ -73,6 +73,11 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  animation:BoxAnim;
+  animation-duration:6s;
+  animation-delay:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
 }
 #Text1{
   background-color:rgb(100,0,0,.7);
@@ -139,6 +144,11 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  animation:BoxAnim;
+  animation-duration:6s;
+  animation-delay:2s;
+  animation-fill-mode:forwards;
+  opacity:0;
 }
 #Text2{
   background-color:rgb(100,0,0,.7);
@@ -206,6 +216,11 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  animation:BoxAnim;
+  animation-duration:6s;
+  animation-delay:3s;
+  animation-fill-mode:forwards;
+  opacity:0;
 }
 #Text3{
   background-color:rgb(100,0,0,.7);
@@ -274,6 +289,11 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  animation:BoxAnim;
+  animation-duration:6s;
+  animation-delay:4s;
+  animation-fill-mode:forwards;
+  opacity:0;
 
 }
 #Text4{
@@ -325,3 +345,7 @@ canvas {
 100%{top:8%;}
 
 }
+
+@keyframes BoxAnim {
+100%{opacity:255;}
+} 

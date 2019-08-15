@@ -19,7 +19,7 @@ canvas {
   -ms-user-select: none;
   position: absolute;
   background-color:rgb(20,20,20,.5);
-  top: 8%;
+  top: -5%;
   right: 90%;
   width:9%;
   height:8%;
@@ -30,12 +30,10 @@ canvas {
   border-color:rgb(75,75,75);
   border-radius:20px;
   color:rgb(255,255,255);
-  animation:Buttons;
-  animation-duration:5s;
+  animation:BackButtonAnim;
+  animation-duration:6s;
   animation-delay:0s;
-  animation-fill-mode:forwards;
-  transform:background-color;
-  transition-duration:.8s;
+  animation-fill-mode:forwards; 
 }
 
 #buttonThing1{
@@ -57,7 +55,8 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-
+  transform:background-color;
+  transition-duration:.8s;
 }
 #box1{
   position: absolute;
@@ -122,7 +121,8 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-
+  transform:background-color;
+  transition-duration:.5s;
 }
 #box2{
   position: absolute;
@@ -187,6 +187,8 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  transform:background-color;
+  transition-duration:.5s;
 
 }
 #box3{
@@ -254,7 +256,8 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-
+  transform:background-color;
+  transition-duration:.5s;
 }
 #box4{
   position: absolute;
@@ -271,6 +274,7 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+
 }
 #Text4{
   background-color:rgb(100,0,0,.7);
@@ -299,4 +303,25 @@ canvas {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+
+
+#buttonThing1:hover {
+  background-color:rgb(0,0,0,.5);
+}
+#buttonThing2:hover {
+  background-color:rgb(0,0,0,.5);
+}
+#buttonThing3:hover {
+  background-color:rgb(0,0,0,.5);
+}
+#buttonThing4:hover {
+  background-color:rgb(0,0,0,.5);
+}
+
+@keyframes BackButtonAnim {
+
+100%{top:8%;}
+
 }

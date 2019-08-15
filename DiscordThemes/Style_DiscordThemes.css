@@ -349,3 +349,45 @@ canvas {
 @keyframes BoxAnim {
 100%{opacity:255;}
 } 
+
+#Buttiwer{
+  position: absolute;
+  top: -6%;
+  right: 10%;
+  width:16%;
+  height:10%;
+  max-width: 100%;
+  -webkit-transform: translate(50%, -50%);
+  cursor:pointer;
+  border:10px;
+  border-style:solid;
+  border-radius:20px;
+  border-color:rgb(100,100,100);
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  transform:background-color;
+  transition-duration:.5s;
+  font-size:30px;
+  font-family: 'Beth Ellen', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Lobster', cursive;
+  animation:ButAnim;
+  animation-duration:6s;
+  animation-delay:4s;
+  animation-fill-mode:forwards;
+
+}
+
+#Buttiwer:hover{
+background-color:rgb(255,0,0,.4);
+
+
+}
+@keyframes ButAnim{
+100%{top:7%;}
+
+}

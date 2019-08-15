@@ -1,4 +1,4 @@
-//META{"name":"Discord DarkTheme","description":"a better version of discord DarkTheme","author":"{E.Z.I.C}-O-Xx_Hell Master_xX#1224","version":"1.0"}*//{}
+//META{"name":"Discord DarkTheme","description":"a better version of discord dark theme","author":"{E.Z.I.C}-O-Xx_Hell Master_xX#1224","version":"1.0"}*//{}
 .appMount-3lHmkl::before {
     position: absolute;
     content: " ";
@@ -132,16 +132,18 @@ border-width:5px;
 border-color:rgb(54,54,54);
 border-radius:20px;
 background-color:rgb(0,0,0,.6);
+transition-property:background,border-radius,border-width,border-color,margin-left;
+transition-duration:.4s;
 }
 
 
 
 .channel-2QD9_O a:hover{
-border-style:solid;
 border-width:5px;
 border-color:rgb(54,54,54);
 border-radius:10px;
 background-color:rgb(24,24,24);
+margin-left:20px;
 }
 .theme-dark .container-3gCOGc{
 border-color:rgb(44,44,44);
@@ -166,6 +168,9 @@ border-color:rgb(54,54,54);
 border-style:solid;
 border-width:5px;
 border-radius:20px;
+margin-top:10px;
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
 }
 
 
@@ -181,12 +186,9 @@ border-radius:60px;
 .theme-dark .markup-2BOw-j{
 
 color:rgb(206,0,0);
-
 }
 .container-1YxwTf:hover .markup-2BOw-j{
-
 color:rgb(0,206,0);
-
 }
 .container-1YxwTf{
 border-color:rgb(54,54,54);
@@ -195,11 +197,13 @@ border-width:5px;
 border-radius:10px;
 margin-right:10px;
 margin-top:10px;
+
+transition-property:border-width,border-color,background-color,margin-left,margin-right,border-radius,;
+transition-duration:.6s; 
 }
 .container-1YxwTf:hover{
 background-color:rgb(24,24,24,.7);
 border-color:rgb(44,44,44);
-border-style:solid;
 border-width:5px;
 border-radius:5px;
 margin-right:50px;
@@ -251,7 +255,6 @@ border-width:10px;
 border-radius:40px;
 margin-left:6px;
 margin-top:8px;
-
 }
 .theme-dark .markup-2BOw-j pre:hover{
 background-color:rgb(4,4,4,.2);
@@ -340,6 +343,8 @@ border-color:rgb(44,44,44);
 border-style:solid;
 border-width:5px;
 border-radius:40px; 
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
 }
 
 .theme-dark .memberOffline-2lN7gt:hover{
@@ -348,8 +353,7 @@ border-color:rgb(44,44,44);
 border-style:solid;
 border-width:5px;
 border-radius:10px; 
-margin-left:40px;
-
+margin-left:30px;
 }
 .theme-dark .memberOnline-1CIh-0 {
 background-color:rgb(25,25,25,.7);
@@ -357,12 +361,189 @@ border-color:rgb(44,44,44);
 border-style:solid;
 border-width:5px;
 border-radius:40px;
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
 }
+
+
 .theme-dark .memberOnline-1CIh-0:hover {
 background-color:rgb(20,20,20,.7);
 border-color:rgb(44,44,44);
 border-style:solid;
 border-width:5px;
 border-radius:10px; 
-margin-left:40px;
+margin-left:30px;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW{
+background-color:rgb(20,20,20,.6);
+border-color:rgb(44,44,44);
+border-style:solid;
+border-width:5px;
+border-radius:10px; 
+
+}
+.clickOverride-1J40_l{
+background-color:rgb(255,0,0,0);
+
+}
+.theme-dark .modal-yWgWj-{
+background-color:rgb(40,40,40,0.81);
+border-color:rgb(44,44,44);
+border-style:solid;
+border-width:5px;
+border-radius:10px; 
+
+}
+.gameLibrary-TTDw4Y{
+background-color:rgb(54,54,54);
+border-color:rgb(44,44,44);
+border-style:solid;
+border-width:5px;
+margin-left:50px;
+border-radius:10px;
+
+
+}
+.rowWrapper-2fB6P0{
+border-color:rgb(54,54,54);
+border-style:solid;
+border-width:5px;
+border-radius:20px;
+margin-right:10px;
+margin-top:10px;
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
+
+}
+.rowWrapper-2fB6P0:hover{
+
+border-color:rgb(54,54,54);
+border-style:solid;
+border-width:5px;
+border-radius:5PX;
+margin-left:50px;
+margin-top:10px;
+
+}
+.root-1BQpZw{
+background-color:rgb(54,54,54);
+border-color:rgb(44,44,44);
+border-style:solid;
+border-width:5px;
+margin-left:50px;
+border-radius:10px;
+
+}
+.activityFeed-1C0EmJ{
+
+background-color:rgb(54,54,54,.1);
+border-color:rgb(44,44,44);
+border-style:solid;
+border-width:5px;
+margin-left:50px;
+border-radius:10px;
+}
+.app-19_DXt{
+background-color:rgb(54,54,54,.1);
+border-color:rgb(44,44,44);
+border-style:solid;
+border-width:5px;
+border-radius:10px;
+
+}
+
+.content-3at_AU{
+background-color:rgb(54,54,54,.3);
+border-color:rgb(0,0,0);
+border-style:solid;
+border-width:5px;
+border-radius:10px;
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
+
+}
+
+.content-3at_AU:hover{
+ background-color:rgb(54,54,54,.3);
+border-color:rgb(0,0,0);
+border-style:solid;
+border-width:5px;
+border-radius:5px;
+margin-left:30px;
+}
+
+.wrapper-CU3qI5{
+background-color:rgb(54,54,54,.3);
+border-color:rgb(150,0,0);
+border-style:solid;
+border-width:2px;
+border-radius:10px;
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
+
+}
+
+.wrapper-CU3qI5:hover{
+background-color:rgb(54,54,54,.3);
+border-color:rgb(150,0,0);
+border-style:solid;
+border-width:2px;
+border-radius:5px;
+margin-left:30px;
+}
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU{
+background:rgb(100,0,0);
+margin-left:50px;
+
+}
+.theme-dark .container-3baos1, .theme-light .container-3baos1{
+
+background-color:rgb(54,54,54,.3);
+border-color:rgb(0,0,0);
+border-style:solid;
+border-width:5px;
+border-radius:10px;
+
+}
+.container-1giJp5{
+background-color:rgb(54,54,54,.3);
+border-color:rgb(0,0,0);
+border-style:solid;
+border-width:5px;
+border-radius:10px; 
+}
+.theme-dark .isMentioned-N-h9aa{
+background-color:rgb(45,45,45,.8);
+
+
+}
+.isMentionedCozy-3isp7y:after{
+
+ background-color:rgb(0,255,0,.3);
+ border-left:4px solid rgb(175,175,175);
+}
+.theme-dark .wrapper-35wsBm{
+background-color:rgb(54,54,54,.5);
+border-color:rgb(0,0,0);
+border-style:solid;
+border-width:5px;
+border-radius:10px; 
+}
+
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6{
+border-color:rgb(75,75,75);
+border-style:solid;
+border-width:3px;
+border-radius:10px; 
+transform:background-color,border-color,border-width,border-radius,margin-left;
+transition-duration:.5s;
+}
+
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover{
+border-color:rgb(205,205,205);
+border-style:solid;
+border-width:3px;
+border-radius:10px; 
 }

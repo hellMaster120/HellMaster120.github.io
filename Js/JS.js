@@ -13,7 +13,7 @@ function getInfo() {
 		
 		if(username == objPeople[i].username && password == objPeople[i].password) {
 			console.log("Loging in.....")
-			window.location = "hellmaster120.gq/DivLongIn/MainSite"
+			window.location = "DivLongIn/MainSite"
 			return
 		}
 	}

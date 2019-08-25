@@ -2,8 +2,9 @@ function getInfo() {
 	var password = document.getElementById('password').value
 
 	
-		if(password == "611124") {
-			console.log("Loging in.....")
+		if(password == "611124" || password == "621124") {
+			console.log("Loging in...")
+	
 
 		
 	document.getElementById('Thing').style.opacity = "0"	
@@ -14,6 +15,7 @@ function getInfo() {
 
 console.log("incorrect username or password")
 }
+
 
 function back() {
 	document.getElementById('Thing').style.opacity = "0"	

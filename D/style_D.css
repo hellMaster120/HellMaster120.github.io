@@ -17,9 +17,9 @@ body{overflow:hidden;}
   transition-duration:3s;
   transition-delay:0s;
   position: absolute;
-  top: 50%;
   right: 50%;
-    width: 37%;
+  width: 37%;
+  bottom:0%;
   height: 57%;
   max-width: 90%;
   -webkit-transform: translate(50%, -50%);

@@ -2,7 +2,7 @@ canvas {
   background:black;
   vertical-align: bottom;
 }
-
+body{overflow:hidden;}
 #particles-js {
   position: absolute;
   width: 100%;
@@ -14,26 +14,95 @@ canvas {
 #Thing{
   opacity:100;
   transform:right,opacity;
-  transition-duration:.8s;
+  transition-duration:3s;
+  transition-delay:0s;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+    width: 37%;
+  height: 57%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
 }
 
 #password{
   position: absolute;
-  top: 50%;
+  font-size: 30px;
+  top: 53.9%;
   right: 50%;
-
+  width: 278px;
+  height: 41px;
   max-width: 1090%;
   -webkit-transform: translate(50%, -50%);
 }
 
 #button{
+  font-size: 30px;
   position: absolute;
-  top: 53%;
+  top: 65.1%;
   right: 50%;
-  width:10.4%;
-  height:3%;
+  width: 35%;
+  height: 8%;
   max-width: 90%;
   -webkit-transform: translate(50%, -50%);
+}
 
+#D{
+  opacity:0;
+  transform:right,opacity;
+  transition-duration:4s;
+  transition-delay:.2s;
+  position: absolute;
+  background-color:rgb(40,40,40,.8);
+  top: -70%;
+  right: 50%;
+  width:50%;
+  height:50%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  border-style:solid;
+  border-radius:50px;
+  border-color:rgb(100,100,100);
+}
+#button1{
+  position: absolute;
+  top: 85%;
+  right: 80%;
+  width: 21%;
+  height: 23%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+}
+#button2{
+  position: absolute;
+  top: 85%;
+  right: 17%;
+  width: 21%;
+  height: 23%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+}
+
+#text{
+  position: absolute;
+  top: 18%;
+  right: 49%;
+  text-align: center;
+  font-size: 423%;
+  -webkit-transform: translate(50%, -50%);
+  color: rgb(101, 95, 95);
+}
+#box{
+  position: absolute;
+  background-color: rgb(56,56,56,0.8);
+  top: 51.6%;
+  right: 50%;
+  width: 41.2%;
+  height: 41.2%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  border-style: solid;
+  border-radius: 21.1px;
+  border-color: rgb(100,100,100);
 
 }

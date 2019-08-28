@@ -49,15 +49,17 @@ body{overflow:hidden;}
 
 #D{
   opacity:0;
-  transform:right,opacity;
+  transform:right,left,opacity;
   transition-duration:4s;
   transition-delay:.2s;
   position: absolute;
   background-color:rgb(40,40,40,.8);
   top: -70%;
   right: 50%;
+  left: 0%;
   width:50%;
   height:50%;
+  bottom: 0%;
   max-width: 90%;
   -webkit-transform: translate(50%, -50%);
   border-style:solid;
@@ -104,5 +106,24 @@ body{overflow:hidden;}
   border-style: solid;
   border-radius: 21.1px;
   border-color: rgb(100,100,100);
+
+}
+#BOXThing{
+  opacity:0;
+  transform:right,left,opacity;
+  transition-duration:4s;
+  transition-delay:.2s;
+  position: absolute;
+  background-color:rgb(40,40,40,.8);
+  top: 50%;
+  right: -70%;
+  width:50%;
+  height:50%;
+  bottom: 0%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  border-style:solid;
+  border-radius:50px;
+  border-color:rgb(100,100,100);
 
 }

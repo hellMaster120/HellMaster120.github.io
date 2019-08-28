@@ -48,10 +48,6 @@ function Page(){
 console.log(I)
 }
 
-
-
-
-
 function Right(Index,Number){
 document.getElementById(''+Index.toString()+'').style.right = ""+Number+"%"
 }

@@ -1,0 +1,2184 @@
+body{
+    overflow-x: hidden !important;
+    background: url(https://thiccalts.net/assets/images/Background.png);
+    background-repeat:no-repeat;
+    background-position:center; 
+   background-attachment:fixed;
+    background-size: cover;
+	overflow-x:hidden; 
+	user-drag: none; 
+	user-select: none;
+ 	-moz-user-select: none;
+ 	-webkit-user-drag: none;
+ 	-webkit-user-select: none;
+ 	-ms-user-select: none;
+
+}
+
+#Boxs{
+	opacity:0;
+	user-drag: none; 
+	user-select: none;
+ 	-moz-user-select: none;
+ 	-webkit-user-drag: none;
+ 	-webkit-user-select: none;
+ 	-ms-user-select: none;
+ 	animation:Boxs;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+}
+
+#Boxs1{
+
+}
+
+#Box1{
+    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 81%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40)
+
+
+}
+
+#Box2{
+	    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 60.8%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	
+}
+
+#Box3{
+    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 40%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	
+}
+
+#Box4{
+    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 19.8%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+  	
+}
+
+#Box5{
+        
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 81%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	 		
+}
+
+#Box6{
+	    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 60.8%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	  		
+}
+
+#Box7{
+    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 40%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	  	
+}
+
+#Box8{
+    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 19.8%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	  	
+}
+
+#Imgs{
+ 	opacity:0;
+ 	animation:Boxs;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;	
+}
+
+#Imgs1{
+
+}
+
+#Img1{
+	    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 81%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  	
+}
+
+#Img2{
+		    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 60.8%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+  	
+}
+
+#Img3{
+	    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;		
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 39.9%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ 
+  	
+}
+
+#Img4{
+		    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 19.8%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+#Img5{
+		    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 81%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+  	
+}
+
+#Img6{
+		    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 60.8%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+#Img7{
+		    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 39.9%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+
+  	
+}
+
+#Img8{
+		    
+    transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 19.8%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+  	
+}
+
+#Buttons{
+
+	opacity:0;
+ 	animation:Boxs;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+}
+
+#Buttons1{
+
+}
+
+#Button1{
+	
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	font-size:-100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 81.2%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    border-style: solid;
+    outline: none;
+
+}
+
+#Button2{
+		
+	transform:background-color border-radius right;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 61.2%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button3{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+	position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 39.5%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+
+}
+
+#Button4{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;		
+	font-size: -100%;	
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 19.8%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button5{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 81.5%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button6{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 60.5%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button7{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+	position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 39.5%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button8{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	font-size: -100%;	
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 19.5%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Boxs2{
+
+}
+
+#Box9{
+    			
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40)
+
+
+}
+
+#Box10{
+				
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	
+}
+
+#Box11{
+				
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	
+}
+
+#Box12{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 36.3%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+  	
+}
+
+#Box13{
+    			
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	 		
+}
+
+#Box14{
+				
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	  		
+}
+
+#Box15{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	  	
+}
+
+#Box16{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+    width: 13.2%;
+    height: 31.7%;
+    background: rgb(22, 22, 22);
+    right: 109%;
+    top: 79.2%;
+    position: absolute;
+    max-width: 90%;
+    -webkit-transform: translate(50%, -50%);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-style: solid;
+    border-color: rgb(42, 40, 40);
+
+  	  	
+}
+
+#Imgs2{
+
+}
+
+#Img9{
+				
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  	
+}
+
+#Img10{
+					
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+  	
+}
+
+#Img11{
+					
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ 
+  	
+}
+
+#Img12{
+					
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 26.5%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+#Img13{
+				
+	transform:background-color border-radius right;
+  	transition-duration:2s;		
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+  	
+}
+
+#Img14{
+					
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+#Img15{
+					
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+
+  	
+}
+
+#Img16{
+					
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	height: 0%;
+    width: 0%;
+	animation:Imgs;
+  	animation-duration:4s;
+  	animation-delay:1.9s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 69.4%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+  	
+}
+
+#Buttons2{
+
+}
+
+#Button9{
+	
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;	
+	font-size:-100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+    position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    border-style: solid;
+    outline: none;
+
+}
+
+#Button10{
+		
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button11{
+			
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+	position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+
+}
+
+#Button12{
+			
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;		
+	font-size: -100%;	
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 48.3%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button13{
+			
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button14{
+			
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button15{
+			
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+	position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Button16{
+			
+	transform:background-color border-radius right;
+  	transition-duration:2s;	
+	font-size: -100%;	
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:Buttons;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 91%;
+    right: 109%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+    
+}
+
+#Next1{
+	
+	transform:background-color border-radius right;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:NextButton1;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 95.6%;
+    right: 6.5%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+
+}
+
+#Back1{
+	
+	opacity:0;
+	transform:background-color border-radius right opacity;
+  	transition-duration:2s;			
+	font-size: -100%;
+	height: 0%;
+    width: 0%;
+    color:rgb(0,0,0,0);
+    animation:BackButton1;
+  	animation-duration:5s;
+  	animation-delay:1s;
+ 	animation-fill-mode:forwards;
+	position: absolute;
+    position: absolute;
+    max-width: 90%;
+    top: 95.6%;
+    right: 160%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62);
+    outline: none;
+
+}
+
+#THEITER{
+
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    right: 150%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(62, 62, 62,.7);
+    outline: none;
+    transform:right;
+  	transition-duration:0.2s;
+
+}
+#box1{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box2{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box3{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box4{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box5{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+#box6{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box7{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box8{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box9{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box10{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box11{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box12{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box13{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box14{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box15{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#box16{
+
+    position: absolute;
+    max-width: 100%;
+    height: 43%;
+    width: 24%;
+    top: -23%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgb(26, 26, 27);
+    outline: none;
+    transform:top;
+  	transition-duration:3s;
+}
+
+#back1{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back2{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+
+#back3{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back4{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+#back5{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+#back6{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+#back7{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+#back8{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back9{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back10{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back11{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back12{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back13{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+
+#back14{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+
+#back15{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+#back16{
+
+    position: absolute;
+    max-width: 90%;
+    height: 9.3%;
+    width: 8.9%;
+    font-size: 20px;
+    color: white;
+    top: 4%;
+    right: 4%;
+    -webkit-transform: translate(50%, -50%);
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: rgba(26, 26, 27, 0);
+    outline: none;
+    border-color: #ff000000;
+    cursor:pointer;
+
+}
+
+/*-------------------KeyFrames and animation------------------------*/
+@keyframes Boxs{
+100%{opacity:100;}
+}
+
+@keyframes Buttons{
+100%{font-size: 90%; color:rgb(255,255,255,100); height: 5.3%; width: 7.9%;}
+}
+
+@keyframes Imgs{
+100%{height: 12%; width: 13.2%;}
+}
+
+@keyframes NextButton1{
+100%{ height: 8%; width: 10%; color: rgb(255,255,255);}
+}
+
+@keyframes BackButton1{
+100%{ height: 8%; width: 10%; color: rgb(255,255,255);}
+}
+
+#Button1:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button2:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button3:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button4:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button5:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button6:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button7:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button8:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button9:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button10:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button11:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button12:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button13:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button14:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button15:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Button16:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Next1:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}
+
+#Back1:hover{
+border-radius:20px;
+background-color:rgb(31, 16, 16);
+}

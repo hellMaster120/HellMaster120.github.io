@@ -1,7 +1,4 @@
-<?php  
 
-$user = $_GET["u"];
-?>
 
 <!DOCTYPE html>
 <html>
@@ -9,7 +6,10 @@ $user = $_GET["u"];
 	<title>chatter</title>
 </head>
 <body>
+<?php  
 
+$user = $_GET["u"];
+?>
 	<div class="chatContainer">
 	<div class="chatHeader">
 		<h3>Welcom <?php echo ucwords($user); ?></h3>

@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>chatter</title>
-</head>
-<body>
 <?php  
 
 $user = $_GET["u"];
 ?>
+
+
+<html>
+<head>
+<link rel="stylesheet" type="text/php" href="PHP.php">
+	<title>chatter</title>
+</head>
+<body>
+	
 	<div class="chatContainer">
 	<div class="chatHeader">
 		<h3>Welcom <?php echo ucwords($user); ?></h3>

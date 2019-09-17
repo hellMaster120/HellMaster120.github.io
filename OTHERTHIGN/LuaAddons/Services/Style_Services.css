@@ -1,0 +1,46 @@
+canvas {
+  background: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+
+
+#Back{
+  opacity:255;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  position: absolute;
+  background-color:rgb(20,20,20,.5);
+  top: -5%;
+  right: 90%;
+  width:9%;
+  height:8%;
+  max-width: 90%;
+  -webkit-transform: translate(50%, -50%);
+  border:5px;
+  border-style:solid;
+  border-color:rgb(75,75,75);
+  border-radius:20px;
+  color:rgb(255,255,255);
+  animation:BackButtonAnim;
+  animation-duration:6s;
+  animation-delay:0s;
+  animation-fill-mode:forwards; 
+}
+
+
+@keyframes BackButtonAnim {
+
+100%{top:8%;}
+
+}

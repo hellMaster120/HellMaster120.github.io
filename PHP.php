@@ -1,6 +1,6 @@
 <?php 
 $var = 32342
 
-echo $var 
+echo "My first PHP script!";
 
 ?>

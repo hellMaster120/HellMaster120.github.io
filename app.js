@@ -1,7 +1,7 @@
-const express = require('express')
-const path = require('path')
-const app = express()
-
+var express = require('express')
+var path = require('path')
+var app = express()
+var serv = require('http').Server(app)
 app.use(express.urlencoded({extended : false}))
 
 //server static files
@@ -13,9 +13,5 @@ app.get('/',function(req,res){
 })
 app.use('/client',express.static(__dirname+'/client'))
 //setting up the server
-
-app.listen(3000,()=> {
-
-	console.log('server is runing on ')
-})
+serv.listen(2000)
 module.exports = app

@@ -1,8 +1,13 @@
+var createError = require('http-errors');
 var express = require('express');
-var app = express()
-var serv = require('http').Server(app);
-var port = normalizePort(process.env.PORT || '3000')
-app.set('port',port)
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
+
+var app = express();
 
 app.get('/',function(req,res) {
 	res.sendFile(__dirname + '/index.html');
@@ -18,7 +23,5 @@ var io = require('socket.io')(serv,{});
 io.sockets.on('connection',function(socket) {
 	console.log('socket connection')
 });
-
-
 
 

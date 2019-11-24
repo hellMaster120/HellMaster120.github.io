@@ -4,8 +4,8 @@ var serv = require('http').Server(app);
 app.get('/',function(req,res) {
 	res.sendFile(__dirname + '/index.html');
 });
-app.use('/client',express.static(__dirname+'/client'));
-serv.listen(2000)
+app.use('/index',express.static(__dirname+'/index'));
+
 console.log('server stared')
 
 var io = require('socket.io')(serv,{});

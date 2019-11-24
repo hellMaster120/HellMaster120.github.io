@@ -5,7 +5,7 @@ app.get('/',function(req,res) {
 	res.sendFile(__dirname + '/index.html');
 });
 app.use('/index',express.static(__dirname+'/index'));
-serv.listen(443)
+serv.listen(8443)
 console.log('server stared')
 
 var io = require('socket.io')(serv,{});

@@ -6,7 +6,7 @@ app.get('/',function(req,res) {
 	res.sendFile(__dirname+'index.html')
 })
 app.use('client',express.static(__dirname+'client'))
-serv.listen(8080)
+
 console.log("Server started")
 
 var io = require('socket.io')(serv,{})

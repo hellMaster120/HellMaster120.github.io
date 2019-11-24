@@ -11,6 +11,14 @@ app.use(express.static(path.join(__dirname,'public')))
 //template engine 
 app.set('views',path.join(__dirname,'views'))
 app.set('view engine','pug')
+//le's server the index page
+app.get('/',function(req,res){
+	res.render('index')
+
+
+
+})
+
 
 //setting up the server
 

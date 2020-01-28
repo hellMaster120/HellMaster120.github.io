@@ -1,3 +1,5 @@
+
+
 script=document.createElement('script');
 script2=document.createElement('script');
 var script = document.getElementsByTagName("head")[0];
@@ -36,7 +38,6 @@ setInterval(function(){
 
 function draw(){
     background(0,0,0)
-    console.log(II)
     if(ParticleMouses.length==60){II = 1}
     if(mouseIsPressed){
         if(II==0){
@@ -63,8 +64,8 @@ class Particle{
     constructor(){
     this.pos = createVector(random(20,width-20),random(20,height-20));
     this.size = random(10,20);
-    this.SpeedY = 2
-    this.SpeedX = 2
+    this.SpeedY = random(1,4)
+    this.SpeedX = random(1,4)
     this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
 
 }
@@ -118,8 +119,8 @@ class Particle{
         constructor(){
             this.pos = createVector(mouseX,mouseY);
             this.size = random(10,20);
-            this.SpeedY = 2
-            this.SpeedX = 2
+            this.SpeedY = random(1,4)
+            this.SpeedX = random(1,4)
             this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
         
         }
@@ -156,6 +157,7 @@ class Particle{
                 }
 
             })
+        
         }
     }
 

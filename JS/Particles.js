@@ -15,9 +15,10 @@ let pP;
 let ParticleMouses = [];
 let I;
 let II;
+
 function setup(){
 createCanvas(window.innerWidth,window.innerHeight);
-MaxParticles = Math.floor(height/6)
+MaxParticles = Math.floor(height/5)
 II = 0
 for(let i = 0;i<MaxParticles;i++){
 Particles.push(new Particle)  
@@ -37,7 +38,7 @@ setInterval(function(){
 
 
 function draw(){
-    background(0,0,0)
+    background(15)
     if(ParticleMouses.length==60){II = 1}
     if(mouseIsPressed){
         if(II==0){
@@ -64,10 +65,12 @@ class Particle{
     constructor(){
     this.pos = createVector(random(20,width-20),random(20,height-20));
     this.size = random(10,20);
-    this.SpeedY = random(1,4)
-    this.SpeedX = random(1,4)
+    this.SpeedY = random(1.9)
+    this.SpeedX = random(1.9)
     this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
-
+    this.ColorR = Math.floor(random(180,50));
+    this.ColorG = Math.floor(random(0));
+    this.ColorB = Math.floor(random(0))
 }
     update(){
         this.pos.add(this.vel)
@@ -76,12 +79,12 @@ class Particle{
     
     draw(){
         noStroke();
-        fill("rgb(255,255,255)");
+        fill("rgba(255,255,255,0)");
         circle(this.pos.x,this.pos.y,this.size);
     }
     mouseDraw(){
         noStroke();
-        fill("rgb(255,255,255)");
+        fill("rgba(255,255,255,0)");
         circle(mouseX,mouseY,this.size); 
     }
     hitBox(){
@@ -99,13 +102,16 @@ class Particle{
             let D = dist(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
             let D1 = dist(mouseX,mouseY,Particle.pos.x,Particle.pos.y)
 
-            if(D<130){
-                stroke("rgb(255,0,0)")
+            if(D<190){
+  
+                stroke("rgb("+this.ColorR+","+this.ColorG+","+this.ColorB+")")
                 line(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
-            }
+                
+            }   
 
-            if(D1<200){
-                stroke("rgb(255,0,0)")
+
+            if(D1<190){
+                stroke("rgb("+this.ColorR+","+this.ColorG+","+this.ColorB+")")
                 line(mouseX,mouseY,Particle.pos.x,Particle.pos.y)
             }
         })
@@ -122,7 +128,9 @@ class Particle{
             this.SpeedY = random(1,4)
             this.SpeedX = random(1,4)
             this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
-        
+            this.ColorR = Math.floor(random(180,50));
+            this.ColorG = Math.floor(random(0));
+            this.ColorB = Math.floor(random(0))
         }
         
         update(){
@@ -133,7 +141,7 @@ class Particle{
 
         
             noStroke();
-            fill("rgb(255,255,255)");
+            fill("rgba(255,255,255,0)");
             circle(this.pos.x,this.pos.y,this.size); 
         
         }
@@ -148,11 +156,12 @@ class Particle{
         
         }
         lines(Particles){
+
             ParticleMouses.forEach(Particle =>{
                 let D = dist(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
                
                 if(D<130){
-                    stroke("rgb(255,0,0)")
+                    stroke("rgb("+this.ColorR+","+this.ColorG+","+this.ColorB+")")
                     line(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
                 }
 

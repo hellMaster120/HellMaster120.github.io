@@ -65,6 +65,8 @@ background:rgb(0,0,0);
     animation-duration:5s;
     animation-delay:2s;
     animation-fill-mode:forwards;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 #TOP-Button-Box #Button-1{

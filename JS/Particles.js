@@ -17,14 +17,13 @@ let I;
 let II;
 
 function setup(){
-createCanvas(window.innerWidth,window.innerHeight);
-MaxParticles = Math.floor(height/6)
-II = 0
-for(let i = 0;i<MaxParticles;i++){
-Particles.push(new Particle)  
-
-}
-pP = new Particle
+    createCanvas(window.innerWidth,window.innerHeight);
+    MaxParticles = Math.floor(height/6)
+    II = 0
+    for(let i = 0;i<MaxParticles;i++){
+        Particles.push(new Particle)  
+    }
+    pP = new Particle
 
 }
 
@@ -63,15 +62,15 @@ function draw(){
 
 class Particle{
     constructor(){
-    this.pos = createVector(random(20,width-20),random(20,height-20));
-    this.size = random(10,20);
-    this.SpeedY = random(1.9)
-    this.SpeedX = random(1.9)
-    this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
-    this.ColorR = Math.floor(random(180,50));
-    this.ColorG = Math.floor(random(0));
-    this.ColorB = Math.floor(random(0))
-}
+        this.pos = createVector(random(20,width-20),random(20,height-20));
+        this.size = random(10,20);
+        this.SpeedY = random(1.9)
+        this.SpeedX = random(1.9)
+        this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
+        this.ColorR = Math.floor(random(180,50));
+        this.ColorG = Math.floor(random(0));
+        this.ColorB = Math.floor(random(0))
+    }
     update(){
         this.pos.add(this.vel)
         this.hitBox()
@@ -116,68 +115,60 @@ class Particle{
             }
         })
     }
+}
+
+
+
+
+class particleMouse{
+    constructor(){
+        this.pos = createVector(mouseX,mouseY);
+        this.size = random(10,20);
+        this.SpeedY = random(1,4)
+        this.SpeedX = random(1,4)
+        this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
+        this.ColorR = Math.floor(random(180,50));
+        this.ColorG = Math.floor(random(0));
+        this.ColorB = Math.floor(random(0))
     }
-
-
-
-
-    class particleMouse{
-        constructor(){
-            this.pos = createVector(mouseX,mouseY);
-            this.size = random(10,20);
-            this.SpeedY = random(1,4)
-            this.SpeedX = random(1,4)
-            this.vel = createVector(random(-this.SpeedY,this.SpeedY),random(-this.SpeedX,this.SpeedX))    
-            this.ColorR = Math.floor(random(180,50));
-            this.ColorG = Math.floor(random(0));
-            this.ColorB = Math.floor(random(0))
+        
+    update(){
+        this.pos.add(this.vel)
+        this.hitBox() 
+    }
+    draw(){
+        noStroke();
+        fill("rgba(255,255,255,0)");
+        circle(this.pos.x,this.pos.y,this.size); 
+    }
+    hitBox(){
+        if(this.pos.x < 10||this.pos.x > width-10){
+            this.vel.x *= -1
         }
-        
-        update(){
-            this.pos.add(this.vel)
-            this.hitBox() 
+        if(this.pos.y < 10||this.pos.y > height-10){
+            this.vel.y *= -1
         }
-        draw(){
+    }
+    lines(Particles){
 
-        
-            noStroke();
-            fill("rgba(255,255,255,0)");
-            circle(this.pos.x,this.pos.y,this.size); 
-        
-        }
-        hitBox(){
-            if(this.pos.x < 10||this.pos.x > width-10){
-                this.vel.x *= -1
-            }
-            if(this.pos.y < 10||this.pos.y > height-10){
-                this.vel.y *= -1
-            }
-        
-        
-        }
-        lines(Particles){
-
-            ParticleMouses.forEach(Particle =>{
-                let D = dist(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
+        ParticleMouses.forEach(Particle =>{
+            let D = dist(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
                
-                if(D<130){
-                    stroke("rgb("+this.ColorR+","+this.ColorG+","+this.ColorB+")")
-                    line(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
-                }
+            if(D<130){
+                stroke("rgb("+this.ColorR+","+this.ColorG+","+this.ColorB+")")
+                line(this.pos.x,this.pos.y,Particle.pos.x,Particle.pos.y)
+            }
 
-            })
+        })
         
-        }
     }
+}
 
 
-    function clean(){
-        if(!mouseIsPressed){
-        
-            ParticleMouses.shift()
 
+setInterval(function(){
+    if(!mouseIsPressed){
+        ParticleMouses.shift()
     }
-    }
-    
-    setInterval(clean,1000)
+},1000)
     

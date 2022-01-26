@@ -162,7 +162,9 @@ class particleMouse{
     }
 }
 
-
+var can = document.getElementsByClassName("p5Canvas")
+can.style.width = "100%"
+can.style.height= "100%"
 
 setInterval(function(){
     if(!mouseIsPressed){

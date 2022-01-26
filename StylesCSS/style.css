@@ -69,6 +69,54 @@ background:rgb(0,0,0);
     text-overflow: ellipsis;
 }
 
+#TOP-Button-Box #Button-1{
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    outline: none;
+    top: 50%;
+    bottom: auto;
+    left: 24%;
+    width: 30%;
+    height: 64%;
+    right: auto;
+    border: 4px rgb(0, 0, 0) solid;
+    background: rgba(255, 96, 96, 0.57);
+    border-radius: 20px;
+    color: rgba(136, 136, 136, 0.87);
+    transform: border-color;
+    transition-duration:.9s;
+
+}
+#TOP-Button-Box #Button-1:hover{
+border-color: rgb(118, 114, 114);
+
+}
+#TOP-Button-Box #Button-1:active{
+    background: rgb(253, 0, 0);
+}
+#Other-Projects{
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    outline: none;
+    top: 50%;
+    bottom: auto;
+    left: 24%;
+    width: 37%;
+    height: 51%;
+    right: auto;
+    border: 4px rgb(0, 0, 0) solid;
+    background: rgb(94 2 2 / 56%);
+    border-radius: 20px;
+    color: rgba(136, 136, 136, 0.87);
+    transform: border-color;
+    transition-duration: .9s;
+}
+#Other-Projects:hover{
+    background: rgba(94, 2, 2, 0.89);
+}
+
 @keyframes Top-BoxAin{
 
     100%{top:12%;}

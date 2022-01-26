@@ -1,5 +1,3 @@
-
-
 script=document.createElement('script');
 script2=document.createElement('script');
 var script = document.getElementsByTagName("head")[0];

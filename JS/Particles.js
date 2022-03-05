@@ -16,7 +16,7 @@ let II;
 
 function setup(){
     createCanvas(window.innerWidth,window.innerHeight);
-    MaxParticles = Math.floor(height/6)
+    MaxParticles = Math.floor(height/20)
     II = 0
     for(let i = 0;i<MaxParticles;i++){
         Particles.push(new Particle)  

@@ -132,7 +132,7 @@ FileData = JSON.parse(LocalStorage.getItem("Data"))
 console.log(FileData)
 function setup(){
     createCanvas(window.innerWidth,window.innerHeight);
-    MaxParticles = Math.floor(height/10)
+    MaxParticles = Math.floor(height/13)
     II = 0
     for(let i = 0;i<MaxParticles;i++){
         Particles.push(new Particle)  

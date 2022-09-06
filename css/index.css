@@ -3,3 +3,9 @@ body{
     padding: 0;  
 
 }
+.p5Canvas{
+    position:absolute;
+    width: 99.9%;
+    height: 99.9%;
+
+}

@@ -3,28 +3,27 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
-    <script>
-        function init() {
-        gapi.load('auth2', function() {
-            /* Ready. Make a call to gapi.auth2.init or some other API */
-        });
-        }
-    </script>
 </head>
 <body>
     <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <div id="g_id_onload" data-client_id="1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com" data-callback="handleCredentialResponse"></div>
-    <div class="g_id_signin" data-type="standard"></div>
+    <div id="g_id_onload"
+         data-client_id=""1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com""
+         data-context="signin"
+         data-ux_mode="popup"
+         data-callback="handleCredentialResponse"
+         data-nonce=""
+         data-auto_prompt="false">
+    </div>
+
+    <div class="g_id_signin"
+         data-type="standard"
+         data-shape="pill"
+         data-theme="filled_black"
+         data-text="signin_with"
+         data-size="large"
+         data-logo_alignment="center">
+    </div>
     <script>
-         window.onload = function () {
-            google.accounts.id.initialize({
-              client_id: '1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com',
-              callback: handleCredentialResponse
-            });
-            google.accounts.id.prompt();
-          };
-        
         function handleCredentialResponse(data){
             console.log(data)
 

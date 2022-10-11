@@ -3,44 +3,13 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="css/index.css">
- 
-    <script src="https://apis.google.com/js/api.js"></script>
-    <script>
-        function start() {
-
-            gapi.auth2.authorize({
-            client_id: '1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com',
-            scope: 'email profile openid',
-            response_type: 'id_token permission'
-            }, function(response) {
-            if (response.error) {
-                // An error happened!
-                console.log(response);
-                return;
-            }
-            // The user authorized the application for the scopes requested.
-            var accessToken = response.access_token;
-            var idToken = response.id_token;
-            // You can also now use gapi.client to perform authenticated requests.
-            });
-
-
-        };
-
-      // Loads the JavaScript client library and invokes `start` afterwards.
-        gapi.load('auth2', function(){
-            options = new gapi.auth2.SigninOptionsBuilder();
-
-            console.log(options)
-            start()
-        });
-    </script>   
     
-   
 </head>
 <body>
 
-
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com">
+    <div class="g-signin2" data-onsuccess="handleCredentialResponse"></div>
     <script id = "MainJS" src="js/index.js"></script>
 </body>
 </html>

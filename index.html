@@ -6,10 +6,15 @@
     
 </head>
 <body>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <div id="g_id_onload" data-client_id="1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com" data-callback="handleCredentialResponse"></div>
+    <div class="g_id_signin" data-type="standard"></div>
+    <script>
+        function handleCredentialResponse(data){
+            console.log(data)
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <meta name="google-signin-client_id" content="1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com">
-    <div class="g-signin2" data-onsuccess="handleCredentialResponse"></div>
-    <script id = "MainJS" src="js/index.js"></script>
+        }
+
+    </script>
 </body>
 </html>

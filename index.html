@@ -3,10 +3,10 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://apis.google.com/js/api.js"></script>
+     <script src="https://accounts.google.com/gsi/client" onload="initClient()" async defer></script>
 </head>
 <body>
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
     <div id="g_id_onload"
          data-client_id="1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com"
          data-context="signin"
@@ -34,6 +34,18 @@
     
     
     <script>
+        const APIKEY = '1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com' 
+        var client;
+        function initClient() {
+            client = google.accounts.oauth2.initCodeClient({
+            client_id: APIKEY,
+            scope: 'https://www.googleapis.com/auth/drive.metadata.readonly',
+            ux_mode: 'popup',
+            callback: (tokenResponse) => {
+                console.log(tokenResponse)       
+            }})    
+        }
+
         function handleCredentialResponse(data){
             console.log(data)
 

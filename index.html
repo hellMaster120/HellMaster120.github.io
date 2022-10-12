@@ -36,16 +36,21 @@
     <script>
         const APIKEY = '1019198432263-683081q1rd1oo4n5acmv6q3h84fiktcj.apps.googleusercontent.com' 
         var client;
-        function initClient() {
-            client = google.accounts.oauth2.initCodeClient({
-            client_id: APIKEY,
-            scope: 'https://www.googleapis.com/auth/drive.metadata.readonly',
-            ux_mode: 'popup',
-            callback: (tokenResponse) => {
-                console.log(tokenResponse)       
-            }})    
-        }
+        var access_token;
 
+
+        function initClient() {
+            client = google.accounts.oauth2.initTokenClient({
+                client_id: APIKEY,
+                scope: 'https://www.googleapis.com/auth/drive.metadata.readonly',
+                callback: (tokenResponse) => {
+                    access_token = tokenResponse.access_token;
+                },
+            });
+        }
+        function getToken() {
+            return client.requestAccessToken();
+        }
         function handleCredentialResponse(data){
             console.log(data)
 

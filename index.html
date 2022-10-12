@@ -51,6 +51,16 @@
         function getToken() {
             client.requestAccessToken();
         }
+        
+        function GetInfo(){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET',
+              'https://www.googleapis.com/auth/userinfo.profile' +
+              '?access_token=' + encodeURIComponent(access_token));
+            xhr.send();    
+        }
+        
+        
         function handleCredentialResponse(data){
             console.log(data)
 

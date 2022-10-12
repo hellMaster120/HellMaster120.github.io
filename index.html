@@ -49,7 +49,11 @@
             });
         }
         function getToken() {
-            return client.requestAccessToken();
+            client.requestAccessToken();
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://www.googleapis.com/auth/userinfo.profile');
+            xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
+            xhr.send();
         }
         function handleCredentialResponse(data){
             console.log(data)

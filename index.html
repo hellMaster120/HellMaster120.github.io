@@ -42,7 +42,7 @@
         function initClient() {
             client = google.accounts.oauth2.initTokenClient({
                 client_id: APIKEY,
-                scope: 'https://www.googleapis.com/auth/drive.metadata.readonly',
+                scope: 'https://www.googleapis.com/auth/userinfo.profile',
                 callback: (tokenResponse) => {
                     access_token = tokenResponse.access_token;
                 },
